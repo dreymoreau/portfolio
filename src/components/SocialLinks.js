@@ -56,6 +56,7 @@ const SocialLinks = () => {
                  <li 
                  key={id} 
                  className={
+                    // eslint-disable-next-line no-useless-concat
                     "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" + " " + style}>
                      <a 
                      href={href} 
