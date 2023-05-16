@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-800
+    <div name='about' className='w-full h-full bg-gradient-to-b from-gray-800
     to-black text-white'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col
         justify-center w-full'>
@@ -11,7 +11,7 @@ const About = () => {
                 border-gray-500'>About</p>
             </div>
 
-            <p className='text-xl mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Omnis sapiente iusto distinctio laboriosam nulla, quos 
                 quam unde et sint reprehenderit voluptate deserunt, nemo 
                 iure dolore. Alias porro architecto mollitia dicta quibusdam 
@@ -23,7 +23,7 @@ const About = () => {
             <br />
 
             
-            <p className='text-xl'>
+            <p className='text-xl  mb-20'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Omnis sapiente iusto distinctio laboriosam nulla, quos 
                 quam unde et sint reprehenderit voluptate deserunt, nemo 
