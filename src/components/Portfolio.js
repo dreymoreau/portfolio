@@ -8,22 +8,22 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: meowApi,
-            codeLink: 'https://github.com/dreymoreau/meow-api',
-            demoLink: 'https://meow-api.up.railway.app/'
-        },
-        {
-            id: 2,
             src: portfolio,
             codeLink: 'https://github.com/dreymoreau/portfolio',
             demoLink: 'https://dreymoreau.netlify.app/'
         },
         {
-            id: 3,
+            id: 2,
             src: treesForLife,
             codeLink: 'https://github.com/dreymoreau/tree-project',
             demoLink: 'https://treesareneededforlife.netlify.app/'
-        }
+        },
+        {
+            id: 3,
+            src: meowApi,
+            codeLink: 'https://github.com/dreymoreau/meow-api',
+            demoLink: 'https://meow-api.up.railway.app/'
+        },
     ]
 
   return (
