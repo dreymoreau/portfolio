@@ -39,7 +39,7 @@ const Portfolio = () => {
             {
                 portfolios.map(({id,src,codeLink,demoLink}) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                    <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
+                    <img src={src} alt='projects' className='rounded-md duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center'>
                         <button onClick={(() => window.open(demoLink, '_blank'))}
                                  rel="noreferrer" 
