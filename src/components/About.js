@@ -11,26 +11,8 @@ const About = () => {
                 border-gray-500'>About</p>
             </div>
 
-            <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Omnis sapiente iusto distinctio laboriosam nulla, quos 
-                quam unde et sint reprehenderit voluptate deserunt, nemo 
-                iure dolore. Alias porro architecto mollitia dicta quibusdam 
-                corporis sapiente consequuntur a repellat, nesciunt consequatur 
-                incidunt fugiat suscipit perferendis, atque aperiam eum repudiandae 
-                ad voluptatum? Libero.
-            </p>
-
-            <br />
-
-            
-            <p className='text-xl  mb-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Omnis sapiente iusto distinctio laboriosam nulla, quos 
-                quam unde et sint reprehenderit voluptate deserunt, nemo 
-                iure dolore. Alias porro architecto mollitia dicta quibusdam 
-                corporis sapiente consequuntur a repellat, nesciunt consequatur 
-                incidunt fugiat suscipit perferendis, atque aperiam eum repudiandae 
-                ad voluptatum? Libero.
+            <p className='text-xl mb-20'>
+                Prior to the pandemic I was a freelancing artist, as a photographer and painter. Through the pandemic, I got a concussion as I was in the crypto space. Learning about smart contracts made me super interested into how to build it. As I was taking time from the crypto space, I started learning how to code. I found my passion of software development unexpectedly and transitioned into tech. It has allowed me to connect with lots of amazing developers in tech while working on client projects to achieve their goals as well as building projects focused on my passions. 
             </p>
         </div>
     </div>
