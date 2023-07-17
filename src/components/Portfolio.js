@@ -2,6 +2,7 @@ import React from 'react'
 import meowApi from '../assets/meowApi.png'
 import portfolio from '../assets/portfolio.png'
 import treesForLife from '../assets/treesForLife.png'
+import cohereGen from '../assets/cohereGen.png'
 
 const Portfolio = () => {
 
@@ -20,10 +21,17 @@ const Portfolio = () => {
         },
         {
             id: 3,
+            src: cohereGen,
+            codeLink: 'https://github.com/dreymoreau/gen-cohere-app',
+            demoLink: 'https://cohere-appppp.netlify.app/'
+        },
+        {
+            id: 4,
             src: meowApi,
             codeLink: 'https://github.com/dreymoreau/meow-api',
             demoLink: 'https://meow-api.up.railway.app/'
         },
+        
     ]
 
   return (
