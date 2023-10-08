@@ -1,4 +1,4 @@
-# <a target="_blank" href="https://dreymoreau.netlify.app/">View Here</a>
+# <a href="https://dreymoreau.netlify.app/ target="_blank">View Here</a>
 
 # What I Learned
 - how to incorporate tailwind wtih react
