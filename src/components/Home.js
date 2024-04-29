@@ -13,12 +13,12 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold 
           text-white'>
-            I'm a Full Stack Developer</h2>
+           Welcome to my digital world!</h2>
           <p className='text-gray-500 py-4 max-w-md'>
             I have experience building responsive 
             full stack web applications and websites.
-            Currently I love using technologies such as React, 
-            Node, Javascript, MongoDB, Express and Tailwind.
+            Currently I love using technologies such as Astro, TypeScript, C#, SQL, React 
+            Node, JavaScript....... what will be next?
           </p>
           
           <div>

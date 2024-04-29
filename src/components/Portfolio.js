@@ -3,30 +3,37 @@ import meowApi from '../assets/meowApi.png'
 import portfolio from '../assets/portfolio.png'
 import treesForLife from '../assets/treesForLife.png'
 import cohereGen from '../assets/cohereGen.png'
+import torontoJsVol from '../assets/torontoJSVol.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
+            src: torontoJsVol,
+            codeLink: 'https://github.com/torontojs/torontojs.com',
+            demoLink: 'https://torontojs.com/volunteers'
+        },
+        {
+            id: 2,
             src: portfolio,
             codeLink: 'https://github.com/dreymoreau/portfolio',
             demoLink: 'https://dreymoreau.netlify.app/'
         },
         {
-            id: 2,
+            id: 3,
             src: treesForLife,
             codeLink: 'https://github.com/dreymoreau/tree-project',
             demoLink: 'https://treesareneededforlife.netlify.app/'
         },
         {
-            id: 3,
+            id: 4,
             src: cohereGen,
             codeLink: 'https://github.com/dreymoreau/gen-cohere-app',
             demoLink: 'https://cohere-appppp.netlify.app/'
         },
         {
-            id: 4,
+            id: 5,
             src: meowApi,
             codeLink: 'https://github.com/dreymoreau/meow-api',
             demoLink: 'https://meow-api.up.railway.app/'
