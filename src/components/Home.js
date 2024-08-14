@@ -2,7 +2,6 @@ import React from 'react'
 import HeroImage from '../assets/hero-image.jpg'
 import {RiArrowRightSLine} from 'react-icons/ri'
 import {Link} from 'react-scroll'
-import "../index.css"
 
 const Home = () => {
   return (

@@ -9,9 +9,3 @@
     font-family: 'Raleway', sans-serif;
   }
 }
-
-
-.resized {
-  width: var(--size-1);
-  height: var(--size-1)
-}
