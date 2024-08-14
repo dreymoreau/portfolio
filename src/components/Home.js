@@ -1,7 +1,8 @@
 import React from 'react'
-import HeroImage from '../assets/heroImage.jpg'
+import HeroImage from '../assets/hero-image.jpg'
 import {RiArrowRightSLine} from 'react-icons/ri'
 import {Link} from 'react-scroll'
+import "../index.css"
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
         </div>
         <div> 
             <img src={HeroImage} alt="my profile" 
-            className="rounded-2xl mx-auto w-2/4 md:w-2/3 sm:w-2/5 mb-10"/>
+            className="rounded-2xl mx-auto w-2/4 md:w-2/3 sm:w-2/5 mb-10 scale-75"/>
         </div>
        </div>
     </div>
