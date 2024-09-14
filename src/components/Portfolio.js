@@ -1,39 +1,46 @@
 import React from 'react'
-import meowApi from '../assets/meowApi.png'
-import portfolio from '../assets/portfolio.png'
-import treesForLife from '../assets/treesForLife.png'
-import cohereGen from '../assets/cohereGen.png'
-import torontoJsVol from '../assets/torontoJSVol.png'
+import meowApi from '../assets/project-assets/meowApi.png'
+import portfolio from '../assets/project-assets/portfolio.png'
+import treesForLife from '../assets/project-assets/treesForLife.png'
+import cohereGen from '../assets/project-assets/cohereGen.png'
+import torontoJsVol from '../assets/project-assets/torontoJSVol.png'
+import torontoJsBl from '../assets/project-assets/torontojs-blog.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
+            src: torontoJsBl,
+            codeLink: 'https://github.com/torontojs/blog',
+            demoLink: 'https://blog.torontojs.com/'
+        },
+        {
+            id: 2,
             src: torontoJsVol,
             codeLink: 'https://github.com/torontojs/torontojs.com',
             demoLink: 'https://torontojs.com/volunteers'
         },
         {
-            id: 2,
+            id: 3,
             src: portfolio,
             codeLink: 'https://github.com/dreymoreau/portfolio',
             demoLink: 'https://dreymoreau.netlify.app/'
         },
         {
-            id: 3,
+            id: 4,
             src: treesForLife,
             codeLink: 'https://github.com/dreymoreau/tree-project',
             demoLink: 'https://treesareneededforlife.netlify.app/'
         },
         {
-            id: 4,
+            id: 5,
             src: cohereGen,
             codeLink: 'https://github.com/dreymoreau/gen-cohere-app',
             demoLink: 'https://cohere-appppp.netlify.app/'
         },
         {
-            id: 5,
+            id: 6,
             src: meowApi,
             codeLink: 'https://github.com/dreymoreau/meow-api',
             demoLink: 'https://meow-api.up.railway.app/'

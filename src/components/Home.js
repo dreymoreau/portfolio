@@ -13,12 +13,12 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold 
           text-white'>
-           Welcome to my digital world!</h2>
+           Welcome!</h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            I have experience building responsive 
+            I have a passion for building responsive 
             full stack web applications and websites.
             Currently I love using technologies such as Astro, TypeScript, C#, SQL, React 
-            Node, JavaScript....... what will be next?
+            Node, JavaScript!! I am currently building projects using Ruby on Rails!
           </p>
           
           <div>

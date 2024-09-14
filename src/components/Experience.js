@@ -1,12 +1,12 @@
 import React from 'react'
-import css from '../assets/css.png'
-import html from '../assets/html.png'
-import javascript from '../assets/javascript.png'
-import nextjs from '../assets/nextjs.png'
-import node from '../assets/node.png'
-import tailwind from '../assets/tailwind.png'
-import reactImage from '../assets/react.png'
-import github from '../assets/github.png'
+import css from '../assets/code-assets/mongodb.jpg'
+import html from '../assets/code-assets/html.png'
+import javascript from '../assets/code-assets/javascript.png'
+import nextjs from '../assets/code-assets/nextjs.png'
+import node from '../assets/code-assets/node.png'
+import tailwind from '../assets/code-assets/tailwind.png'
+import reactImage from '../assets/code-assets/react.png'
+import github from '../assets/code-assets/github.png'
 
 const Experience = () => {
 
