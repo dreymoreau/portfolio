@@ -17,8 +17,7 @@ const Home = () => {
           <p className='text-gray-500 py-4 max-w-md'>
             I have a passion for building responsive 
             full stack web applications and websites.
-            Currently I love using technologies such as Astro, TypeScript, C#, SQL, React 
-            Node, JavaScript!! I am currently building projects using Ruby on Rails!
+            Currently, I enjoy using technologies such as Astro, TypeScript, C#, React, Node, SQL, JavaScript!! I am currently building projects using Ruby on Rails!
           </p>
           
           <div>
