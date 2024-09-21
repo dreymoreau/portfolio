@@ -43,7 +43,7 @@ const Portfolio = () => {
             id: 6,
             src: meowApi,
             codeLink: 'https://github.com/dreymoreau/meow-api',
-            demoLink: 'https://meow-api.up.railway.app/'
+            demoLink: 'https://meow-api-i9z4.onrender.com/'
         },
         
     ]
