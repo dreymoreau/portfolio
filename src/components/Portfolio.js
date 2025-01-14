@@ -5,42 +5,48 @@ import treesForLife from '../assets/project-assets/treesForLife.png'
 import cohereGen from '../assets/project-assets/cohereGen.png'
 import torontoJsVol from '../assets/project-assets/torontoJSVol.png'
 import torontoJsBl from '../assets/project-assets/torontojs-blog.png'
+import ccreader from '../assets/project-assets/cc_reader_for_portfolio.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
+            src: ccreader,
+            codeLink: 'https://github.com/dreymoreau/cc_reader',
+        },
+        {
+            id: 2,
             src: torontoJsBl,
             codeLink: 'https://github.com/torontojs/blog',
             demoLink: 'https://blog.torontojs.com/'
         },
         {
-            id: 2,
+            id: 3,
             src: torontoJsVol,
             codeLink: 'https://github.com/torontojs/torontojs.com',
             demoLink: 'https://torontojs.com/volunteers'
         },
         {
-            id: 3,
+            id: 4,
             src: portfolio,
             codeLink: 'https://github.com/dreymoreau/portfolio',
             demoLink: 'https://dreymoreau.netlify.app/'
         },
         {
-            id: 4,
+            id: 5,
             src: treesForLife,
             codeLink: 'https://github.com/dreymoreau/tree-project',
             demoLink: 'https://treesareneededforlife.netlify.app/'
         },
         {
-            id: 5,
+            id: 6,
             src: cohereGen,
             codeLink: 'https://github.com/dreymoreau/gen-cohere-app',
             demoLink: 'https://cohere-appppp.netlify.app/'
         },
         {
-            id: 6,
+            id: 7,
             src: meowApi,
             codeLink: 'https://github.com/dreymoreau/meow-api',
             demoLink: 'https://meow-api-i9z4.onrender.com/'
@@ -59,19 +65,32 @@ const Portfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-20'>
                 
             {
-                portfolios.map(({id,src,codeLink,demoLink}) => (
-                    <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                    <img src={src} alt='projects' className='rounded-md duration-200 hover:scale-105'/>
-                    <div className='flex items-center justify-center'>
-                        <button onClick={(() => window.open(demoLink, '_blank'))}
-                                 rel="noreferrer" 
-                                 className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-
-                        <button onClick={() => window.open(codeLink, '_blank')}
-                                 rel="noreferrer"
-                                 className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                portfolios.map(({ id, src, codeLink, demoLink }) => (
+                    <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                        <img
+                            src={src}
+                            alt="projects"
+                            className="rounded-md w-22 h-22 duration-200 hover:scale-105"
+                        />
+                        <div className="flex items-center justify-center">
+                            {demoLink && (
+                                <button
+                                    onClick={() => window.open(demoLink, "_blank")}
+                                    rel="noreferrer"
+                                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                                >
+                                    Demo
+                                </button>
+                            )}
+                            <button
+                                onClick={() => window.open(codeLink, "_blank")}
+                                rel="noreferrer"
+                                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                            >
+                                Code
+                            </button>
+                        </div>
                     </div>
-                </div>
                 ))}
             </div>
         </div>
